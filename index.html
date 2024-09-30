@@ -5,38 +5,6 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Card Matching Game</title>
 <link rel="stylesheet" href="./style.css">
-<style>
-    body {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 100vh;
-        margin: 0;
-        font-family: Arial, sans-serif;
-        background-color: darkgrey;
-    }
-    .game-board {
-        display: grid;
-        grid-template-columns: repeat(3, 250px);
-        gap: 20px;
-        max-width: 600px;
-    }
-    .card {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 120px;
-        background-color: #f0f0f0;
-        font-size: 24px;
-        cursor: pointer;
-        transition: background-color 0.3s;
-        border: 2px solid black;
-        border-radius: 15px;
-    }
-    .card.flipped {
-        background-color: #fff;
-    }
-</style>
 </head>
 <body>
 <div class="game-board"></div>
